@@ -9,15 +9,10 @@ This system helps students and researchers quickly understand academic papers wi
 Students and researchers spend hours reading research papers to understand:
 
 Methodology
-
 Model architecture
-
 Results
-
 Limitations
-
 Future work
-
 This project automates that process using a multi-agent AI architecture.
 
 ##Solution Overview
