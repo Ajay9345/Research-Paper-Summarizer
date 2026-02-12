@@ -1,31 +1,35 @@
-📚 Research Paper Summarizer Crew
+#Research Paper Summarizer Crew
 
-An AI-powered multi-agent system that analyzes research papers and generates structured summaries, key insights, and answers to questions.
+An AI-powered multi-agent system that automatically analyzes and summarizes research papers using CrewAI + Groq LLM.
 
-Built using CrewAI + Groq LLM + PDF Processing.
+This system helps students and researchers quickly understand academic papers without reading 20–30 pages manually.
 
-🚀 Problem Statement
+##Problem Statement
 
-Students and researchers spend hours reading long research papers to extract:
+Students and researchers spend hours reading research papers to understand:
 
 Methodology
 
-Results
+Model architecture
 
-Key contributions
+Results
 
 Limitations
 
 Future work
 
-This project automates that process using AI agents.
+This project automates that process using a multi-agent AI architecture.
 
-🧠 Solution Overview
+##Solution Overview
 
-This system uses a multi-agent architecture where each agent performs a specialized academic task:
+The system uses multiple AI agents working together:
 
-Agent	Responsibility
-📊 Paper Analyzer	Extracts methodology, dataset, architecture
-📈 Result Summarizer	Extracts results and contributions
-📚 Citation Agent	Formats references in APA style
-❓ Q&A Agent	Answers student doubts
+PDF Research Paper
+        ↓
+Text Extraction
+        ↓
+CrewAI Agents
+        ↓
+Structured Academic Summary
+        ↓
+Interactive Q&A Mode
